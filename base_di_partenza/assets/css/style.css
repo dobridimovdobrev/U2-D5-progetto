@@ -72,6 +72,7 @@ a {
 
 /* Hero section */
 .hero-section {
+  padding-block: 5rem;
   position: relative;
   border-top: 1px solid #191919;
   border-bottom: 1px solid #191919;
@@ -80,8 +81,11 @@ a {
 }
 
 .hero-icon{
-  width: 34rem;
-  margin-left: 4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  
 }
 
 
@@ -257,7 +261,6 @@ a {
 }
 
 .article-description{
-  font-size: .9rem;
   color: #6C6E6F;
 }
 
