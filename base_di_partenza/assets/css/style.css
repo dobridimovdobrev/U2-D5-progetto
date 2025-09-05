@@ -28,6 +28,7 @@ a {
 /* Header with navbar */
 .my-header {
   padding: 1.5rem 0;
+  border-bottom: 1px solid #191919;
   background-color: #ffc017;
   position: fixed;
   width: 100%;
