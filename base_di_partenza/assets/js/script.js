@@ -9,7 +9,7 @@ function handleScroll() {
   const getStartedBtn = document.querySelector('.get-started-btn');
   const scrollPosition = window.scrollY;
   
-  if (scrollPosition > 150) {
+  if (scrollPosition > 20) {
    
     header.classList.add('scrolled');
    
